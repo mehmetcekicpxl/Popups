@@ -1,4 +1,4 @@
-# Popups
+# Pop-ups
 
 ## Opdracht
 
