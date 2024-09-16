@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Popups.MainPage"
+             Title="Flex Layout 2PROc">
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ScrollView>
+            <FlexLayout x:Name="flexLayout"
+                        Wrap="Wrap" JustifyContent="Start" AlignItems="Start" AlignContent="Start">
+                
+            </FlexLayout>
+        </ScrollView>
+        <Button Grid.Row="1" Text="Toevoegen" Clicked="AddButton_Clicked" CornerRadius="20" Margin="10" />
+    </Grid>
+
+
+</ContentPage>
